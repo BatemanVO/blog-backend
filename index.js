@@ -10,6 +10,7 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useFindAndModify', true);
 
 app.use(bodyParser.json());
+app.use((request, response, next) => request.hostname !== process.env.ORIGIN ? response.status(401).end() : next());
 
 app.get('/', (request, response) => {
     Post.find({}).then(posts => response.status(200).json(posts));
