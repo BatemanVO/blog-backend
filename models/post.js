@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 module.exports = {
-    Message: mongoose.model('Message', new mongoose.Schema(
+    Post: mongoose.model('Post', new mongoose.Schema(
         {
             title: String,
             body: String
