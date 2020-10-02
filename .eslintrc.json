@@ -1,0 +1,36 @@
+{
+    "env": {
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "comma-dangle": "error",
+        "comma-spacing": "error",
+        "complexity": ["error", 7],
+        "curly": "error",
+        "eqeqeq": "error",
+        "func-call-spacing": "error",
+        "indent": ["error", 4],
+        "key-spacing": "error",
+        "max-len": ["error", { "code": 128 }],
+        "object-curly-newline": ["error", { "multiline": true, "minProperties": 5, "consistent": true }],
+        "no-alert": "error",
+        "no-console": "error",
+        "no-lonely-if": "error",
+        "no-mixed-operators": "error",
+        "no-multi-spaces": "error",
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-nested-ternary": "error",
+        "no-param-reassign": "error",
+        "no-tabs": "error",
+        "no-trailing-spaces": "error",
+        "no-undef": 0,
+        "no-var": "error",
+        "no-whitespace-before-property": "error",
+        "prefer-const": "error",
+        "quote-props": ["error", "as-needed"],
+        "semi": "error",
+        "semi-spacing": "error",
+        "space-before-blocks": "error"
+    }
+}
