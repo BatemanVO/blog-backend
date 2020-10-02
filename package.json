@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/BatemanVO/blog-backend/issues"
   },
-  "homepage": "https://github.com/BatemanVO/blog-backend#readme"
+  "homepage": "https://github.com/BatemanVO/blog-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  }
 }
