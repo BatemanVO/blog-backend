@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 module.exports = {
     Post: mongoose.model('Post', new mongoose.Schema(
         {
-            title: String,
+            title: { type: String, unique: true },
             body: String
         },
         {
