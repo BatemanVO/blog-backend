@@ -16,7 +16,7 @@ The app will not accept any requests from an origin not specified in the environ
 names. As an example, "localhost 127.0.0.1" will mean the app will recognize the origins "localhost" and "127.0.0.1". Any
 requests made from any other domains will be rejected with a 401 status code.
 
-## Running tests
+# Running tests
 Make sure MongoDB has been installed on your computer, you are running an instance of Mongo in a shell, and you have specified
 the URI to the Mongo instance in your MONGO_URI environment variable, as specified above.
 After that, make sure you have installed all Node modules by running `npm i`, then run the command `npm test`. If all code
