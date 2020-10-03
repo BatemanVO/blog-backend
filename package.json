@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest __tests__"
+    "test": "npx eslint ./ && jest __tests__ --coverage"
   },
   "repository": {
     "type": "git",
